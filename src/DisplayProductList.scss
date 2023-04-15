@@ -1,0 +1,16 @@
+.display-product-list-container{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+  }
+
+  &__list-container {
+    width: 100%;
+  }
+}
